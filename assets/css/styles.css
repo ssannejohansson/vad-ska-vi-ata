@@ -1,0 +1,108 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* CSS Variables */
+:root {
+    --primary-font: "Inter", sans-serif;
+    --secondary-font: "Rubik Dirt", system-ui;
+    --primary-color: #262528;
+    --secondary-color: #df501c;
+    --third-color: #83a56f;
+    --input-color: rgba(255, 255, 255, 0.517);
+}
+
+body {
+    height: 100vh;
+    background-color: #d5d6e8;
+    /* Fallback for background-image */
+    background-image: url(../images/73940842_9824638.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+h1 {
+    font-family: var(--secondary-font);
+    text-transform: uppercase;
+    font-size: 2.5rem; 
+}
+
+p {
+    font-size: 1rem; 
+    color: black;
+}
+
+a { 
+    margin-top: 0px; 
+    text-decoration: none;
+    font-weight: 700; 
+    color: black; 
+}
+
+
+
+.btn {
+border: none; 
+}
+
+.custom-btn-link {
+    width: 200px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    background-color: #4c782f;
+    color: white; 
+    border-radius: 20px;
+}
+
+.custom-btn-link:hover {
+    background-color: #385823;
+    color: white;
+}
+
+.custom-btn {
+    width: 200px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    background-color: var(--secondary-color);
+    color: white; 
+    border-radius: 20px;
+}
+
+.custom-btn:hover {
+    background-color: #ba451a;
+    color: white;
+}
+
+/* Game container */
+#glass-container {
+    width: 90%;
+    height: 90%;
+    background: rgba(255, 255, 255, 0.38);
+    border-radius: 16px;
+    -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.3px);
+    -webkit-backdrop-filter: blur(11.3px);
+}
+
+#dish-container {
+    margin: auto;
+    max-width: 300px;
+  
+}
+
+
+
+/* Media queries */
+/* Media query: tablet and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+}
+
+
