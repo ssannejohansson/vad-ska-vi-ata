@@ -8,7 +8,7 @@
 /* CSS Variables */
 :root {
     --primary-font: "Inter", sans-serif;
-    --secondary-font: "Rubik Dirt", system-ui;
+    --secondary-font: "Bagel Fat One", system-ui;
     --primary-color: #262528;
     --secondary-color: #df501c;
     --third-color: #83a56f;
@@ -34,7 +34,7 @@ h1 {
 }
 
 h2 {
-    font-family: var(--secondary-font);
+    font-family: var(--primary-font);
 
     font-size: 2rem; 
 }
